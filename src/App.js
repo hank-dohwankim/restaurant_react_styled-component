@@ -1,13 +1,14 @@
 import React from 'react';
 import { createGlobalStyle } from 'styled-components';
+import { Navbar } from './component/layout/Navbar';
+import { Banner } from './component/layout/Banner';
 
 const GlobalStyle = createGlobalStyle`
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 h1,h2,h3 {
-  font-family: 'Righteous', cursive;
 }
 `;
 
@@ -15,6 +16,8 @@ function App() {
   return (
     <>
       <GlobalStyle />
+      <Navbar />
+      <Banner />
       <h1>Title</h1>
       <h3>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate,
