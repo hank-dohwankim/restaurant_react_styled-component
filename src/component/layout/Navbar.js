@@ -15,6 +15,7 @@ const Logo = styled(font)`
   font-size: 1rem;
   color: #fff;
   text-shadow: 1px 1px 4px #380502;
+  padding: 10px;
 `;
 
 export function Navbar() {

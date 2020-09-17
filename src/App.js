@@ -2,7 +2,7 @@ import React from 'react';
 import { createGlobalStyle } from 'styled-components';
 import { Navbar } from './component/layout/Navbar';
 import { Banner } from './component/layout/Banner';
-import { Menu } from './component/section/Menu';
+import { Menu } from './component/section/menu/Menu';
 
 const GlobalStyle = createGlobalStyle`
 body {
